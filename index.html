@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoFood || Food Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d4daa07e1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><span>GoFood</span></div>
+
+            <div class="inputBox">
+                <input type="text" placeholder="Type to text..." autofocus id="userInputBox">
+                <button id="userSearchBox" type="button">Search</button>
+
+            </div>
+
+            <div class="fav">
+                <a href="Favindex.html">
+                    <div class="cart">
+                        <i class="fa fa-cart-shopping"><p id="cart_Amount">0</p></i>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- container for Button -->
+   <div class="ButtonBox">
+    <!-- <i class="fa fa-arrow-left"></i> -->
+    
+    <div class="favButton" id="favButton">
+        <button type="button" class="ItemaBtn" value="Cake">Cake</button>
+        <button type="button" class="ItemaBtn" value="Biryani">Biryani</button>
+        <button type="button" class="ItemaBtn" value="Chicken">Chicken</button>
+    </div>
+
+    <!-- <i class="fa fa-arrow-right"></i> -->
+   </div>
+
+   <!-- Main Container  -->
+  <div class="main_Container" id="main_Container"></div>
+  <div class="Recipe_Details" id="Recipe_Details">
+    <div class="Recipe_ClosedBtn" id="Recipe_ClosedBtn">x</div>
+    <div class="Recipe_Details_Items" id="Recipe_Details_Items">Manish</div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
